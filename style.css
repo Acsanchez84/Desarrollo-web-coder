@@ -1,0 +1,472 @@
+
+ 
+
+ /***HEADER****/
+
+ .contenedorPadre{
+ 	display: flex; 
+ 	flex-direction: row;
+ 	justify-content: space-around;
+
+ }
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+h1{
+	color: white;
+	background-color: #0B0985;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.letrero{
+	justify-content: right;
+	width: 70%;
+
+}
+
+h2{
+	font-family: 'Dancing Script', cursive;
+	color: #260B8A;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(205,143,226,1) 100%);
+	border: groove 1px grey;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+h2:hover{
+	background-color: #B0A4E0;
+}
+	
+header:hover{
+	background-color: #B0A4E0;
+
+}
+	
+
+header{
+	width: 100%;
+	height:200px;
+	background-color: #A9D7D4;
+
+
+}
+
+.encabezado{
+	width: 100%;
+	height:150px;
+}
+ 
+ .contenedorPadre ul li{
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px; 
+    color: #1E0336;
+
+ } 
+
+
+ /*****MAIN****/
+
+
+
+ .blogs{
+ 	font-size: 15px;
+ 	font-style: cursive;
+ 	margin-right: 2%;
+ 	margin-left: 2%;
+ 	margin-top: 3%;
+ 	margin-bottom: 3%;
+ }
+
+ p{
+ 	font-size: 20px;
+ 	font-style: cursive;
+ 	margin-right: 2%;
+ 	margin-left: 2%;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	text-align: center;
+
+ } 
+
+.parrafoQuienesSomos{
+	font-size: 15px;
+	margin top: 10%;
+	flex direction: row;
+	
+}
+
+ #seccion1 {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 80px;
+ }
+
+ .imagenCentro {
+	 align-self: center;
+ }
+
+ 
+
+ .barraNavegacion{
+ 	
+ 	font-family: 'Playfair Display', serif;
+ 	list-style: none;
+
+
+  }
+
+.subtitulo{
+	color: #260B8A;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.titulo li {
+	list-style: none;
+}
+
+
+
+.contenedorPortafolio{
+
+	
+	font-weight: 400px;
+	height: 260px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.izquierda{
+	background-color: #B0A4E0;
+	width: 300px;
+	height: 90px;
+	margin:1%; 
+	display: inline-block;
+
+}
+
+.centro{
+	background-color: #B0A4E0;
+	width: 300px;
+	height: 80px;
+	margin: 1%;
+	display: inline-block;
+	
+}
+
+.derecha{
+	background-color: #B0A4E0;
+	width: 300px;
+	height: 80px;
+	margin: 1%;
+	display: inline-block;
+
+} 
+
+ *{
+	padding: 2px;
+	margin: 2px;
+
+} 
+
+li{
+	display: inline-block;
+	font-size: 20px;
+}
+
+
+.hijo1{
+	width: 50%;
+	height:200px;
+	background-color: #A9D7D4;
+	float: right;
+}
+
+
+.hijo2{
+	width: 40%;
+	height:80px;
+	background-color: #A9D7D4;
+	float: left;
+}
+
+ul li{
+	font-size: 20px;
+	font-family: "Do hayson" sons self;
+	text-decoration: none;
+
+
+ }
+
+
+
+.portafolio{
+	font-size: 20px;
+}
+
+.padre{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+
+}
+
+.hijo3{
+	background-color: #debeeb;
+	width: 300px;
+	height: 310px;
+	border: solid 2px #33044a;
+	padding-top: 10px;
+
+}
+
+.hijo4{
+	background-color: lightsalmon;
+	width: 300px;
+	height: 289px;
+	border: solid 2px #33044a;
+
+}
+.hijo5{
+	background-color: pink;
+	width: 300px;
+	height: 330px;
+	border:solid 2px #33044a;
+	
+	}
+
+.hijo6{
+	background-color: pink;
+	width: 300px;
+	height: 330px;
+	border: solid 2px #33044a;
+
+}
+
+.parrafoPrincipal {
+	text-align: center;
+	margin right: 10px; 
+	margin-left: 10px;
+	color:grey;
+	
+}
+
+ /***h5****/
+
+.hijo7{
+	background-color: pink;
+	width: 280px;
+	height: 320px;
+	border: solid 2px #33044a;
+	justify-content: space-around;
+
+}
+
+
+
+
+.barraNavegacion li ul li{
+	display: none;
+	padding: 0px;
+}
+
+.barraNavegacion li:hover ul li{
+	display: block;
+
+}
+
+.barraNavegacion li:hover a {
+	display: flex;
+	background-color: pink;
+	color: black;
+
+}
+
+.barraNavegacion ul {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 0px;
+
+}
+
+
+.tendencia{
+	display: grid;
+	grid-template-columns: 100%auto;
+
+}
+
+.titulo{
+	background-color: #33044a;
+	color:white;
+	text-align: center;
+	border-radius: 20px 20px 20px,20px;
+}
+
+
+
+
+
+*/
+
+
+/*****NAVEGACION 1 ****/
+
+
+.navegacion1 {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Playfair Display', serif;
+	list-style: none;
+	height: 150px;
+	width: 100px;
+
+}
+
+.navegacion1 li ul li {
+	display: none;
+	color: black;
+
+}
+
+.navegacion1 li ul li a {
+	color: black;
+}
+
+.navegacion1 li:hover ul li {
+	display: block;
+
+}
+
+
+.contenedor{
+	display: grid;
+	grid-column: 100%;
+	align-items: center;
+
+}
+
+
+.columna1{
+	display: grid;
+	grid-template-columns: 100% auto;
+	grid-column: 2px;
+	color:white;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,130,199,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.tendencia{
+	display: grid;
+	grid-template-columns: 0%;
+	grid-template-rows: 600px;
+	grid-template-columns: 30% auto;
+	grid-column-gap: : 2px;
+
+
+}
+
+.columna2{
+	display: grid;
+	grid-template-rows: 30% 30% 30%;
+	padding-top: 10px;
+	
+}
+
+.imgmain{
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 20px;
+	margin-top: 5px;
+	background: rgb(182,233,237);
+	background: radial-gradient(circle, rgba(182,233,237,1) 14%, rgba(148,187,233,1) 100%);
+
+}
+
+
+.columna3{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 2px;
+
+}
+
+.producto, .Informacion{
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 20px;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 14%, rgba(148,187,233,1) 100%);
+}
+
+#carouselExampleCaptions{
+	width: 300px;
+	height: 300px; 
+	
+}
+
+
+
+
+  /*****FOOTER****/
+
+
+
+.contacto{
+	letter-spacing: 1px;
+}
+
+footer{
+	width: 100%;
+	height:300px;
+	background-color: #A9D7D4;
+	display: flex;
+}
+
+.redesSociales {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: center;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,183,1) 100%);
+}
+
+h3{
+	font font-style: italic 5px;
+	justify-content: center;
+
+}
+
+.parrafoQuienesSomos{
+	margin-bottom: 15px;
+}
+
+.secciones{
+	display: flex;justify-content: center;
+	color: black;
+	height: 80px;
+	background color:  #A9D7D4
+}
